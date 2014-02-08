@@ -1,0 +1,14 @@
+body {
+	background: gray;
+}
+#wrapper {
+	background: yellow;
+}
+#main_header {
+	border: 3px solid black;
+	background-image: url("http://s3.amazonaws.com/vnn-aws-sites/65/files/2012/09/McClellandFootball-600x338.jpg");
+}
+#main_nav {
+	background: gray;
+
+}
