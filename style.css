@@ -1,14 +1,37 @@
 body {
 	background: gray;
 }
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+	display: block;
+}
+
+a:hover {
+	background: silver;
+}
 #wrapper {
 	background: yellow;
+	width: 960px;
+	margin: auto;
 }
 #main_header {
 	border: 3px solid black;
 	background-image: url("http://s3.amazonaws.com/vnn-aws-sites/65/files/2012/09/McClellandFootball-600x338.jpg");
 }
 #main_nav {
-	background: gray;
+	background: black;
+}
 
+#main_nav li{
+	display: inline-block;
+	margin-left: 3px;
+	font-family: arial;
+	font-size: 20px;
+}
+
+#banner {
+	height: 200px;
 }
